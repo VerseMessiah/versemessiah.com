@@ -1,12 +1,12 @@
 /* VerseMessiah — minimal gothic landing page */
 :root{
-  --bg:#0b0b12;
+  --bg:#0060c7;
   --fg:#e7e7ef;
   --muted:#b6b6cb;
-  --blue:#2d6cff;
+  --blue:#229f38;
   --purple:#6e36ff;
-  --gold:#f0c144;
-  --silver:#c0c7d1;
+  --gold:#f9c80e;
+  --silver:#c4c4c4;
 }
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;background:radial-gradient(1200px 600px at 70% -10%, #131326 0%, var(--bg) 55%);color:var(--fg);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,'Helvetica Neue',Arial,'Noto Sans',sans-serif;line-height:1.6}
