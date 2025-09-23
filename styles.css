@@ -1,36 +1,36 @@
 /* VerseMessiah — minimal gothic landing page */
 :root{
-  --bg:#00366f;
-  --fg:#00ffd0;
-  --muted:#b6b6cb;
-  --blue:#229f38;
-  --purple:#b0846;
+  --bg:#011627;
+  --gray:#3a3a3a;	
+  --blue:#0060c7;
+  --purple:#3a3a3a;
   --gold:#f9c80e;
+  --eblue:#2293f8;
   --silver:#c4c4c4;
 }
 *{box-sizing:border-box}
-html,body{margin:0;padding:0;background:radial-gradient(1200px 600px at 70% -10%, #131326 0%, var(--bg) 55%);color:var(--fg);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,'Helvetica Neue',Arial,'Noto Sans',sans-serif;line-height:1.6}
+html,body{margin:0;padding:0;background:radial-gradient(1200px 600px at 70% -10%, #131326 0%, var(--bg) 55%);color:var(--silver);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,'Helvetica Neue',Arial,'Noto Sans',sans-serif;line-height:1.6}
 a{color:var(--gold);text-decoration:none}
 a:hover{text-decoration:underline}
 .container{max-width:1100px;margin:0 auto;padding:24px}
 .header{display:flex;align-items:center;justify-content:space-between;padding:18px 0;border-bottom:1px solid rgba(255,255,255,.08)}
 .brand{display:flex;align-items:center;gap:12px}
-.logo{width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,var(--purple),var(--blue));box-shadow:0 0 0 3px rgba(255,255,255,.06), 0 10px 40px rgba(110,54,255,.25)}
-.brand h1{font-size:18px;letter-spacing:.12em;text-transform:uppercase;margin:0;color:var(--silver)}
+.logo{width:42px;height:42px;border-radius:12px;background:repeating-conic-gradient(from 25deg at 25% 75%,var(--blue),var(--gold));box-shadow:0 0 0 3px rgba(255,255,255,.06), 0 10px 40px rgba(110,54,255,.25)}
+.brand h1{font-size:18px;letter-spacing:.12em;text-transform:uppercase;margin:0;color:var(--eblue)}
 .nav{display:flex;gap:16px}
-.nav a{color:var(--muted);font-size:14px}
+.nav a{color:var(--gold);font-size:14px}
 .hero{display:grid;gap:10px;padding:56px 0}
-h2.title{font-size:44px;line-height:1.1;margin:0 0 8px;font-weight:800;background:linear-gradient(180deg,var(--gold),#fff);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 10px 40px rgba(240,193,68,.2)}
-.subtitle{color:var(--muted);max-width:800px}
+h2.title{font-size:44px;line-height:1.1;margin:0 0 8px;font-weight:800;background:linear-gradient(175deg,var(--gold),#000);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 10px 40px rgba(240,193,68,.2)}
+.subtitle{color:var(--eblue);max-width:800px}
 .pill{display:inline-block;padding:6px 12px;border:1px solid rgba(255,255,255,.1);border-radius:999px;font-size:12px;color:var(--silver);letter-spacing:.06em;text-transform:uppercase}
 .cta{display:flex;gap:12px;margin-top:18px}
 .btn{display:inline-block;padding:12px 16px;border-radius:12px;border:1px solid rgba(255,255,255,.12);font-weight:600}
 .btn-primary{background:linear-gradient(135deg,var(--purple),var(--blue));color:#fff}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:36px 0}
-.card{background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.07);padding:18px;border-radius:16px;box-shadow:0 12px 40px rgba(0,0,0,.25)}
+.card{background:linear-gradient(145deg,var(--bg),var(--blue));border:1px solid var(--eblue);padding:18px;border-radius:16px;box-shadow:0 5px 20px var(--silver)}
 .card h3{margin:0 0 6px}
-.footer{border-top:1px solid rgba(255,255,255,.08);margin-top:40px;padding:22px 0;color:var(--muted);font-size:14px}
+.footer{border-top:1px solid rgba(255,255,255,.08);margin-top:40px;padding:22px 0;color:var(--silver);font-size:14px}
 small.mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;color:#aab}
-.highlight{color:var(--gold)}
+.highlight{color:var(--eblue)}
 @media (max-width:900px){.grid{grid-template-columns:1fr 1fr}}
 @media (max-width:640px){.grid{grid-template-columns:1fr}h2.title{font-size:32px}}
