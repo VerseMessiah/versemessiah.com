@@ -36,7 +36,7 @@ h2.title{font-size:44px;line-height:1.1;margin:0 0 8px;font-weight:800;backgroun
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:36px 0}
 .card{background:linear-gradient(145deg,var(--bg),var(--blue));border:1px solid var(--eblue);padding:18px;border-radius:16px;box-shadow:0 5px 20px var(--silver)}
 .card h3{margin:0 0 6px}
-.footer{border-top:1px solid rgba(255,255,255,.08);margin-top:40px;padding:22px 0;color:var(--silver);font-size:14px}
+.footer{border-top:1px solid var(--silver); margin-top:40px;padding:22px 0;color:var(--silver);font-size:14px}
 small.mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;color:#aab}
 .highlight{color:var(--eblue)}
 @media (max-width:900px){.grid{grid-template-columns:1fr 1fr}}
