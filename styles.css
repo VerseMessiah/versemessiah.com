@@ -64,9 +64,10 @@ a:hover {
 }
 
 .centered {
-  max-width:50%;
-  margin:0 auto;
-  padding:8px
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 8px;
 }
 
 .header {
@@ -238,4 +239,34 @@ small.mono {
 .pillar-badge--politics {
   background-color: var(--vm-cosmic-gold);
   color: var(--vm-near-black-navy);
+}
+
+.resource-links {
+  gap: 32px;
+  flex-wrap: wrap;
+  margin: 24px 0;
+  
+}
+
+.resource-column {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+}
+
+.resource-column h4 {
+  margin: 0 0 4px;
+  color: var(--vm-cosmic-gold);
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.resource-column a {
+  color: var(--vm-bright-white);
+}
+
+.resource-column a:hover {
+  color: var(--vm-electric-sky);
 }
