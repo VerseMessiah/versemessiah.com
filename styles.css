@@ -270,3 +270,10 @@ small.mono {
 .resource-column a:hover {
   color: var(--vm-electric-sky);
 }
+
+.resource-column .phone {
+  display: block;
+  font-size: 0.90em;
+  color: var(--vm-metallic-silver);
+  margin-top: -2px;
+}
